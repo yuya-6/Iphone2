@@ -1,5 +1,6 @@
 //演習②
 public class SmartPhone implements Mp3Player{
+	
 	public void play(){
 		System.out.println("再生");
 	}
@@ -15,5 +16,5 @@ public class SmartPhone implements Mp3Player{
 	public void back(){
 		System.out.println("戻る");
 	}
-
+	
 }
